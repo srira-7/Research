@@ -1,0 +1,2 @@
+//worked --> app running in wsl and can be monitored through visualvm from windows
+java -Dcom.sun.management.jmxremote=true -Djava.rmi.server.hostname=127.0.0.1 -Dcom.sun.management.jmxremote.port=9991 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.registry.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Djava.net.preferIPv4Stack=true -jar JpaTest-0.0.1-SNAPSHOT.jar
